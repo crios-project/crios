@@ -1,0 +1,54 @@
+* {
+  scrollbar-width: thin;          /* "auto" or "thin"  */
+  scrollbar-color: #192535 #141e2c;   /* scroll thumb & track */ 
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #141e2c;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #192535;
+  border: 2px solid #1e2d41;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+* html .clearfix {
+	height: 1%;
+}
+*:first-child + html .clearfix {
+	min-height: 1%;
+}
+fieldset {
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+hr {
+	border: 1px solid gray;
+	height: 1px;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	border-bottom: 3px solid #ccc;
+	padding-right: 1em;
+	text-align: left;
+}
+tbody {
+	border-top: 1px solid #ccc;
+}
+label {
+	display: block;
+	font-weight: bold;
+}

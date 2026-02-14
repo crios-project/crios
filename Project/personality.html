@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Personality Map</title>
+<link rel="shortcut icon" href="../ico/perso/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="../ico/perso/Icon.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="../ico/perso/Icon-60.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="../ico/perso/Icon-76.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="../ico/perso/Icon-60@2x.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="../ico/perso/Icon-76@2x.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../ico/perso/Icon-60@3x.png" />
+<link rel="icon" sizes="192x192" href="../ico/perso/touch-icon.png" />
+<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet" type="text/css">
+<link href="../css/perso.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.js"></script>
+<script type="text/javascript" src="../js/dnd.js"></script>
+<script>
+	// When ready...
+window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+		// Hide the address bar!
+		window.scrollTo(0, 1);
+	}, 0);
+});
+</script>
+<!--<script type="text/javascript">
+	var userAgent = navigator.userAgent.toLowerCase();
+    checkOS = function (r) {
+        return r.test(userAgent);
+    };
+    var PlatformOS = {
+        isWindows: checkOS(/windows nt|win32/),
+        isMac: checkOS(/macintosh|mac os x/),
+        isAndroidPad: checkOS(/nexus 7|xoom /),
+        isAndroid: checkOS(/android/),
+        isIphone: checkOS(/iphone/),
+        isIpad: checkOS(/ipad/),
+        isWindowsPhone: checkOS(/windows phone/),
+        OS: "",
+    }
+    if (PlatformOS.isIphone||PlatformOS.isWindowsPhone) {
+        location.href = "personality.htm";
+    }
+    window.onload = function () {            
+        var currWidth = document.body.clientWidth;
+        if (currWidth <= 699)
+            location.href = "personality.htm";
+    }
+	</script>-->
+<script>
+	function preload(arrayOfImages) {
+    $(arrayOfImages).each(function () {
+        $('<img />').attr('src',this).appendTo('body').css('display','none');
+    });
+}
+</script>
+<style>
+h1 {
+	color: white
+}
+</style>
+</head>
+<body onLoad="init()" oncontextmenu="return false">
+<div id="grid">
+  <ul>
+    <li>
+      <image src="../heads/tea.png" draggable="true" id="a" class="image" alt="tea" height="150px" title="Teala Hart"/>
+    </li>
+    <li>
+      <image src="../heads/esh.png" draggable="true" id="b" class="image" alt="esh" height="150px" title="Eshelia Airist"/>
+    </li>
+    <li>
+      <image src="../heads/kwe.png" draggable="true" id="c" class="image" alt="kwe" height="150px" title="Kwele Oryison"/>
+    </li>
+    <li>
+      <image src="../heads/kal.png" draggable="true" id="d" class="image" alt="kal" height="150px" title="Kali Dana"/>
+    </li>
+    <li>
+      <image src="../heads/pya.png" draggable="true" id="e" class="image" alt="pya" height="150px" title="Pyara Dana"/>
+    </li>
+    <li>
+      <image src="../heads/mah.png" draggable="true" id="f" class="image" alt="mah" height="150px" title="Mahana Sahi"/>
+    </li>
+    <li>
+      <image src="../heads/ray.png" draggable="true" id="g" class="image" alt="ray" height="150px" title="Rayen Elesis"/>
+    </li>
+    <li>
+      <image src="../heads/ais.png" draggable="true" id="h" class="image" alt="ais" height="150px" title="Aisu Elisis"/>
+    </li>
+    <li>
+      <image src="../heads/ita.png" draggable="true" id="i" class="image" alt="ita" height="150px" title="Itami Cystara"/>
+    </li>
+    <li>
+      <image src="../heads/shi.png" draggable="true" id="j" class="image" alt="shi" height="150px" title="Shini Cystara"/>
+    </li>
+    <li>
+      <image src="../heads/dae.png" draggable="true" id="n" class="image" alt="dae" height="150px" title="Daeon Aenoris"/>
+    </li>
+    <li>
+      <image src="../heads/wen.png" draggable="true" id="k" class="image" alt="wen" height="150px" title="Wentea Acera"/>
+    </li>
+    <li>
+      <image src="../heads/kay.png" draggable="true" id="l" class="image" alt="kay" height="150px" title="Kayre Aelyn"/>
+    </li>
+    <li>
+      <image src="../heads/ria.png" draggable="true" id="m" class="image" alt="ria" height="150px" title="Riasa Adoer"/>
+    </li>
+    <li>
+      <image src="../heads/mar.png" draggable="true" id="o" class="image" alt="mar" height="150px" title="Marate deAni"/>
+    </li>
+    <li>
+      <image src="../heads/fu.png"  draggable="true" id="p" class="image" alt="fu"  height="150px" title="F&uacute; c&igrave; Ti&#257;nsh&agrave;ng"/>
+    </li>
+    <li>
+      <image src="../heads/amy.png" draggable="true" id="q" class="image" alt="amy" height="150px" title="Amaranthine Hart"/>
+    </li>
+    <li><a style="cursor: pointer" onclick="javascript: window.location = '../index.html';">
+      <image src="../img/lien.png" id="logo" alt="" height="150px" title="Title Screen"/>
+      </a></li>
+  </ul>
+  <div id="left">
+    <div id="drop-box1" class="dropzone"></div>
+    <br />
+    <h1 id="drop1"></h1>
+  </div>
+  <div id="right">
+    <div id="drop-box2" class="dropzone"></div>
+    <br />
+    <h1 id="drop2"></h1>
+  </div>
+  <div id="text">
+    <p id="result"></p>
+  </div>
+</div>
+<a href="character2.html" style="position:absolute; bottom:0; left:0;">
+<h3>&#60; Characters</h3>
+</a>
+</body>
+</html>

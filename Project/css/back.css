@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#scroller {
+height: 100%;
+background-image: url(/img/midground.png);
+background-repeat: repeat-x;
+}*/
+
+
+#background {
+    background: url(../img/midground.png);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    -webkit-transition: left 300s linear;
+    -moz-transition: left 300s linear;
+    -o-transition: left 300s linear;
+    -ms-transition: left 300s linear;
+    transition: left 300s linear;
+}
+
+#experiment #background {
+    left: -5000px;
+}
+
+#experiment:hover #background {
+    left: -9999px;
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+</head>
+<style>
+html {
+	font-family: Segoe UI, Helvetica, Arial, sans-serif;
+	background: -webkit-linear-gradient(black, rgb(45, 45, 45)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, rgb(45, 45, 45)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, rgb(45, 45, 45)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, rgb(45, 45, 45)); /* Standard syntax */
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+ul {
+	color: white;
+}
+h1 {
+	font-weight: 100;
+	color: #BDECB6;
+}
+h1 span {
+	font-weight: 900;
+}
+.content {
+	padding: 0 0 0 255px;
+	position: relative;
+}
+.content img {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+a {
+	text-decoration: none;
+	display: block;
+	width: 6em;
+	padding: 0 0.5em;
+	font-weight: bold;
+	color: #BDECB6;
+	border-top: 0.5em solid #BDECB6;
+}
+a:hover {
+	color: gray;
+	border-color: gray;
+}
+</style>
+<body>
+<h1 style="position: fixed">kwele <span>oryison</span></h1>
+<div class="content"> <img onclick="changeImage()" id="switch" src="../img/kwe-card.png" style="top: 80px; position: fixed" border="0" width="250px" alt="Kwele">
+  <ul>
+    <li>Teala Hart</li>
+    <em>Kwele idolizes Teala. She moved to Sege partially to meet her.</em>
+    <li>Eshelia Airist</li>
+    <em>Kwele intentionally antagonizes Eshelia. She's a bit of a brat.</em>
+    <li>Kali Dana</li>
+    <em>Kwele is close to Kali.</em>
+    <li>Pyara Dana</li>
+    <em>Kwele and Pyara are super BFF's. They love fun.</em>
+    <li>Mahana Sahi</li>
+    <em>Kwele doesn't fully know what happened to Pyara, but she treasures Mahana because of her.</em>
+    <li>Rayen Elesis</li>
+    <em>Kwele likes Rayen, but she makes life difficult.</em>
+    <li>Aisu Elisis</li>
+    <em>Kwele like Aisu because she's easy to mess with.</em>
+    <li>Itami Cystara</li>
+    <em>Kwele doesn't mind Itami.</em>
+    <li>Shini Cystara</li>
+    <em>Kwele doesn't mind Shini.</em>
+    <li>Wentea Acera</li>
+    <em>Kwele moved to Sege specifically to find Wentea, her older sister.</em>
+    <li>Kayre Aelyn</li>
+    <em>Kwele doesn't mind Kayre.</em>
+    <li>Riasa Adoer</li>
+    <em>After Pyara was gone, Riasa and Kwele became best friends.</em>
+    <li>Daeon Aenoris</li>
+    <em>Kwele doesn't mind Daeon.</em>
+    <li>Marate deAni</li>
+    <em>Kwele is very interested in Marate.</em>
+    <li>F&uacute; c&igrave; Ti&#257;nsh&#257;ng</li>
+    <em>Kwele love love loves F&uacute; c&igrave;.</em>
+    <li>Amaranthine Hart</li>
+    <em>They've never met.</em>
+  </ul>
+</div>
+<script>
+function changeImage() {
+    var image = document.getElementById('switch');
+    if (image.src.match("kwe-card")) {
+        image.src = "../img/KHkwe-card.png";
+    } else {
+        image.src = "../img/kwe-card.png";
+    }
+}
+</script>
+</body>
+</html>

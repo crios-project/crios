@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	cursor:default;
+	scrollbar-width: thin;          /* "auto" or "thin"  */
+	scrollbar-color: #white #gray;   /* scroll thumb & track */ 
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #gray;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #white;
+  border: 2px solid #d3d3d3;
+}
+
+html{
+	cursor:default
+}
+ul {
+	list-style-type: none;
+	width: 700px;
+}
+h1 {
+	font: 40px/3 "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: black;
+}
+a {
+	text-decoration: none;
+	color: #008080;
+}
+h3 {
+	font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+	color: black;
+}
+a h3 {
+	text-decoration: none;
+	color: black;
+}
+li img {
+	float: left;
+	margin: 5px 15px 0 0;
+}
+li p {
+	font: 200 12px/1.5 Georgia, Times New Roman, serif;
+	color: black;
+}
+li {
+	padding: 10px;
+	overflow: auto;
+}
+li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+div {
+	margin: 0 auto;
+	width: 900px;
+	padding: 10px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	-khtml-border-radius: 60px;
+	border-radius: 60px;
+	background: #e5e5e5;
+}
+#content {
+	width: 700px;
+	margin: 0 auto;
+}

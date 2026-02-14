@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html style="background-image: url('img/cave.png');">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>EndDawn: A Fate Looped Infinity</title>
+<!--iOS -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="ico/fall/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="ico/fall/Icon.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="ico/fall/Icon-60.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="ico/fall/Icon-76.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="ico/fall/Icon-60@2x.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="ico/fall/Icon-76@2x.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="ico/fall/Icon-60@3x.png" />
+<link rel="icon" sizes="192x192" href="ico/fall/touch-icon.png" />
+<link rel="stylesheet" href="css/main.css">
+<!--fonts -->
+<link href="http://fonts.googleapis.com/css?family=Berkshire+Swash" rel= "stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet" type="text/css">
+<!-- <script src="js/modernizr-2.6.2.min.js"></script>-->
+<script>
+	// When ready...
+window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+		// Hide the address bar!
+		window.scrollTo(0, 1);
+	}, 0);
+});
+</script>
+</head>
+<body onload="preload()" class="demo" oncontextmenu="return false">
+<div id="example" class="animated flash"><img src="img/small.png" height="100px" width="auto" alt=""/></div>
+<!-- Demo content -->
+<div id="loader-wrapper">
+  <div id="loader"></div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>
+<img src="img/edlogo.png" height="200" alt=""/>
+<div id="content">
+  <h2>Challenge the tyranny of <span>perfection</span>.</h2>
+  <p>The world is at peace.</p>
+  <p>The Final War has been fought, homelessness and poverty are a relic of the past, and the nations of the world have established rules of equality for all. For the first time, citizens of Earth are experiencing what can only be called a perfect utopia.</p>
+  <p>Tiala Hartlight is having none of that. </p>
+  <p>Help Tiala as she enters a series of ethereal realms which house the power that stablizes the world know as the Dreamscape to shatter the Dreamdrop totems to revert the world back to the chaos it once was.</p>
+  <p>Defy destiny and take back your fate. The world will be what you make it.</p>
+  <h2 onClick="goBack()">&#60; Back</h2>
+  <script>
+        function goBack() {
+            window.history.back();
+        }  
+  </script> 
+</div>
+
+
+<!-- /Demo content --> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script> 
+<script src="js/main.js"></script> 
+<script>
+	function preload(arrayOfImages) {
+    $(arrayOfImages).each(function () {
+        $('<img />').attr('src',this).appendTo('body').css('display','none');
+    });
+}
+</script>
+</body>
+</html>

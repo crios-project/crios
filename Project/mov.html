@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>L&imacr;&#601;n Trailers</title>
+<link rel="shortcut icon" href="ico/movie/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="ico/movie/Icon.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="ico/movie/Icon-60.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="ico/movie/Icon-76.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="ico/movie/Icon-60@2x.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="ico/movie/Icon-76@2x.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="ico/movie/Icon-60@3x.png" />
+<link rel="icon" sizes="192x192" href="ico/movie/touch-icon.png" />
+<link rel="stylesheet" type="text/css" href="css/video.css" />
+<script>
+	// When ready...
+window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+		// Hide the address bar!
+		window.scrollTo(0, 1);
+	}, 0);
+});
+</script>
+</head>
+
+<body oncontextmenu="return false">
+<figure id="videoContainer" data-fullscreen="false">
+  <video id="video" height="640" width="1136" controls preload="metadata" poster="vid/poster.jpg">
+    <source src="vid/video.mp4" type="video/mp4" />
+    <source src="vid/video.webm" type="video/webm" />
+    <source src="vid/video.ogg" type="video/ogg" />
+    <!-- Offer download --> 
+  </video>
+  <div id="video-controls" class="controls" data-state="hidden">
+    <button id="playpause" type="button" data-state="play">Play/Pause</button>
+    <button id="stop" type="button" data-state="stop">Stop</button>
+    <div class="progress">
+      <progress id="progress" value="0" min="0"> <span id="progress-bar"></span> </progress>
+    </div>
+    <button id="mute" type="button" data-state="mute">Mute/Unmute</button>
+    <button id="volinc" type="button" data-state="volup">Vol+</button>
+    <button id="voldec" type="button" data-state="voldown">Vol-</button>
+    <button id="fs" type="button" data-state="go-fullscreen">Fullscreen</button>
+  </div>
+</figure>
+<script src="/js/video-player.js"></script> 
+
+<!--<video width="640" height="480" controls poster="vid/poster.jpg"> 
+  <source src="vid/video.mp4" type="video/mp4">
+  <source src="vid/video.webm" type="video/webm"> 
+  <source src="vid/video.ogg" type="video/ogg"> 
+</video>-->
+<h1 onclick="goBack()" id="back">&#60; Back</h1>
+<script>
+	  function goBack() {
+		  window.history.back();
+	  }
+	</script>
+</body>
+</html>

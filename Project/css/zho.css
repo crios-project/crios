@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ui-tabs-vertical { padding: 0; border-width: 0; }
+.ui-tabs-vertical > .ui-tabs-nav { padding: 0; background: transparent; border-width: 0; float: left; width: 5%; }
+.ui-tabs-vertical > .ui-tabs-nav li { clear: left; width: 100%; border-bottom: 1px solid !important; border-right-width: 0 !important; margin-right: -1px !important; margin-bottom: 0.3em !important; border-top-right-radius: 0; border-bottom-left-radius: 4px; }
+.ui-tabs-vertical > .ui-tabs-nav li:first-of-type { margin-top: 1em !important; }
+.ui-tabs-vertical > .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical > .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: 1px; border-right-width: 1px; margin-right: 0 !important; }
+.ui-tabs-vertical > .ui-tabs-panel { margin-left: 1px; padding: 1em; float: left; width: 80%; border-width: 1px; min-height: 20em; border-top-left-radius: 8px; border-top-right-radius: 0px; border-bottom-left-radius: 8px; border-bottom-right-radius: 0px; }

@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Personality Map</title>
+
+  <style>
+  @import url(http://fonts.googleapis.com/css?family=Bevan);
+  @import url(http://fonts.googleapis.com/css?family=Oleo+Script); 
+body {
+	background: #000 url(http://i.imgur.com/UviDsFh.jpg) 50% 40px no-repeat;
+	-webkit-animation: bgscroll 30s alternate infinite linear;
+	-moz-animation: bgscroll 30s alternate infinite linear;
+	-ms-animation: bgscroll 30s alternate infinite linear;
+}
+
+#logo span {
+	position: absolute;
+	display: block;
+	z-index: -1;
+	width: 675px;
+	height: 675px;
+	background: url(http://i.imgur.com/1YS17.png) 0 0 no-repeat;
+	top: -139px;
+	left: -130px;
+	-webkit-animation: rotateinfinite 120s infinite linear;
+	-moz-animation: rotateinfinite 120s infinite linear;
+	-ms-animation: rotateinfinite 120s infinite linear;
+}
+
+h2 {
+	margin: 0 auto;
+	color: #FFF;
+	text-align: center;
+	font-family: "Bevan", sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: -1px;
+	text-shadow: 0 1px 0 #CCC, 0 2px 0 #C9C9C9, 0 3px 0 #BBB, 0 4px 0 #B9B9B9, 0 5px 0 #AAA, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15)
+}
+
+h3 {
+	margin: 0 auto;
+	color: #FFF;
+	text-align: center;
+	font-family: "Oleo Script", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 65px;
+	text-shadow: 0 1px 0 #CCC, 0 2px 0 #C9C9C9, 0 3px 0 #BBB, 0 4px 0 #B9B9B9, 0 5px 0 #AAA, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15)
+}
+
+
+@-webkit-keyframes bgscroll {
+	0%		{ background-position: 5% 40px; }
+	100%	{ background-position: 95% 40px; }
+}
+
+@-webkit-keyframes rotateinfinite {
+	0%		{ -webkit-transform: rotate(0deg); }
+	100%	{ -webkit-transform: rotate(350deg); }
+}
+
+@-moz-keyframes bgscroll {
+	0%		{ background-position: 5% 40px; }
+	100%	{ background-position: 95% 40px; }
+}
+
+@-moz-keyframes rotateinfinite {
+	0%		{ -moz-transform: rotate(0deg); }
+	100%	{ -moz-transform: rotate(350deg); }
+}
+
+@-ms-keyframes bgscroll {
+	0%		{ background-position: 5% 40px; }
+	100%	{ background-position: 95% 40px; }
+}
+
+@-ms-keyframes rotateinfinite {
+	0%		{ -ms-transform: rotate(0deg); }
+	100%	{ -ms-transform: rotate(350deg); }
+}
+
+
+#element {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%);
+}
+@media all and (max-width: 1024px) {
+    #element{
+	  position: absolute;
+	  top: 40%;
+	  left: 0px;
+	  transform: translatex(-50%);
+	}
+}
+
+@media (max-width: 320px){
+	#element{
+	  position: absolute;
+	  top: 0;
+	  left: 0px;
+	 }
+	 h3 {
+	 	font-size: 45px;
+	 }
+	 h2 {
+		font-size: 40px
+	 } 
+	 #logo span {
+	width: 675px;
+	height: 675px;
+}
+  </style>
+</head>
+<body>
+<h1 id="logo"><span></span></h1>
+<div id="element">
+<h3>Page Under Construction</h3>
+<h2>Coming Soon!</h2>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+function setCookie(cname, cvalue, exdays) {
+    var date = 2147483647;
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+}
+
+function setCookie() {
+	document.cookie = 'credits=true; expires=Thu, 17 Jan 2038 20:47:11 UTC; path=/';
+}
+function setCookie() {
+	document.cookie = 'characters=true; expires=Thu, 17 Jan 2038 20:47:11 UTC; path=/';
+}
+function setCookie() {
+	document.cookie = 'glossary=true; expires=Thu, 17 Jan 2038 20:47:11 UTC; path=/';
+}
+function setCookie() {
+	document.cookie = 'select=true; expires=Thu, 17 Jan 2038 20:47:11 UTC; path=/';
+}
+function setCookie() {
+	document.cookie = 'movie=true; expires=Thu, 17 Jan 2038 20:47:11 UTC; path=/';
+}
+function setCookie() {
+	document.cookie = 'lore=true; expires=Thu, 17 Jan 2038 20:47:11 UTC; path=/';
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+function checkCookie() {
+    var cre = getCookie("credits");
+	var cha = getCookie("characters");
+	var glo = getCookie("glossary");
+	var sel = getCookie("select");
+	var mov = getCookie("movie");
+	var lor = getCookie("lore");
+    if (cre = "true" && cha = "true" && glo = "true" && cre = "true" && cre = "true" && cre = "true") {
+        alert("Welcome again " + user);
+    } else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+            setCookie("username", user, 365);
+        }
+    }
+}

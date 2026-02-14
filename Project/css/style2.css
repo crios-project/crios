@@ -1,0 +1,60 @@
+body {
+    background: url(../img/background.png);
+	max-height:100%;
+	max-width: 100%;
+}
+
+img {
+    max-width:50%;
+    max-height:50%;
+}
+
+a {
+	text-decoration:none;
+}
+
+#background {
+    background: url(../img/midground.png);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    -webkit-transition: left 300s linear;
+    -moz-transition: left 300s linear;
+    -o-transition: left 300s linear;
+    -ms-transition: left 300s linear;
+    transition: left 300s linear;
+}
+
+#experiment #background {
+    left: -9999px;
+}
+
+#experiment:target #background {
+    left: -5000px;
+}
+
+#experiment:hover #background {
+    left: -9999px;
+}
+
+#choose {
+	position: absolute;
+	z-index: 10;
+	padding-left: 4.5%;
+}
+
+#choose h1{
+	color: rgb(109,109,109);
+	font-weight:100;
+	font-family:Segoe, "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}
+
+#choose h1:hover{
+	color: white;
+	font-weight:100;
+	font-family:Segoe, "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}

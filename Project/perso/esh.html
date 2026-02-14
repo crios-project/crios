@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+</head>
+<style>
+html {
+	font-family: Segoe UI, Helvetica, Arial, sans-serif;
+	background: -webkit-linear-gradient(black, rgb(45, 45, 45)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, rgb(45, 45, 45)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, rgb(45, 45, 45)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, rgb(45, 45, 45)); /* Standard syntax */
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+ul{
+	color: white;
+}
+h1 {
+	font-weight: 100;
+	color: #000DA2;
+}
+h1 span {
+	font-weight: 900;
+}
+.content {
+	padding: 0 0 0 255px;
+	position: relative;
+}
+.content img {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+a {
+	text-decoration: none;
+	display: block;
+	width: 6em;
+	padding: 0 0.5em;
+	font-weight: bold;
+	color: black;
+	border-top: 0.5em solid #000DA2;
+	color: #000DA2;
+}
+a:hover {
+	color: #0015FF;
+	border-color: #0015FF;
+}
+</style>
+<body>
+<h1 style="position: fixed">eshelia <span>airist</span></h1>
+<div class="content"> 
+<img onclick="changeImage()" id="switch" src="../img/esh-card.png" style="top: 80px; position: fixed" border="0" width="250px" alt="Eshelia">
+     <ul>
+      <li>Teala Hart</li>
+      <em>Eshelia's best friend. She considers Teala a rival in a friendly way.</em>
+      <li>Kwele Oryison</li>
+      <em>Eshelia's annoying friend. She likes Kwele best at a distance and when she can't hear her.</em>
+      <li>Kali Dana</li>
+      <em>Eshelia respects Kali for her devotion to Pyara. Later, she tries to avoid Kali</em>
+      <li>Pyara Dana</li>
+      <em>Eshelia envies Pyara. Pyara is the lighthearted peacemaker that Eshelia wishes she could be.</em> 
+      <li>Mahana Sahi</li>
+      <em>Because of Pyara, Eshelia is protective of Mahana.</em>
+      <li>Rayen Elesis</li>
+      <em>Eshelia likes Rayen</em>.
+      <li>Aisu Elisis</li>
+      <em>Eshelia likes Aisu</em>.
+      <li>Itami Cystara</li>
+      <em>Eshelia hates Itami.</em>
+      <li>Shini Cystara</li>
+      <em>Eshelia hates Shini.</em>
+      <li>Wentea Acera</li>
+      <em>Eshelia hates Wentea.</em>
+      <li>Kayre Aelyn</li>
+      <em>Eshelia hates Kayre.</em>
+      <li>Riasa Adoer</li>
+      <em>Eshelia hates Riasa.</em>
+      <li>Daeon Aenoris</li>
+      <em>Eshelia was instumental in the vast majority of the hardships Daeon has experienced in life. They don't get along</em>
+      <li>Marate deAni</li>
+      <em>Eshelia wants to face Marate so Teala doesn't have to</em>
+      <li>F&uacute; c&igrave; Ti&#257;nsh&#257;ng</li>
+      <em>Eshelia adores F&uacute; c&igrave;</em>
+      <li>Amaranthine Hart</li>
+      <em>They've never met.</em>
+    </ul>
+</div>
+<script>
+function changeImage() {
+    var image = document.getElementById('switch');
+    if (image.src.match("esh-card")) {
+        image.src = "../img/KHesh-card.png";
+    } else {
+        image.src = "../img/esh-card.png";
+    }
+}
+</script>
+</body>
+</html>

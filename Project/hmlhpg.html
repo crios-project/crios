@@ -1,0 +1,135 @@
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Heart Melody: Lovely Hearts</title>
+	<link rel="shortcut icon" href="ico/lh/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="ico/lh/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="ico/lh/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="ico/lh/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="ico/lh/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="ico/lh/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="ico/lh/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="ico/lh/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="ico/lh/apple-touch-icon-180x180.png" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<link href="css/hearttest.css" rel="stylesheet" type="text/css">
+	<link href="css/startest.css" rel="stylesheet" type="text/css">
+	<link href="css/iframe-lightbox.css" rel="stylesheet" >
+	<style>
+	h1 {
+		color: rgb(109,109,109);
+		font-weight:100;
+		font-family:Segoe, "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		position: absolute;
+		bottom: 2vh;
+		left: 5vh;
+	}
+	h1:hover{
+		color: white;
+		font-weight:100;
+		font-family:Segoe, "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+</style>
+  </head>
+  <body id="gradient">
+  <img src="logo/nlhlogo.png" id="logo" />
+	<div class="center">
+	<div class="center">
+		<a href="javascript:void(0);" class="iframe-lightbox-link" data-src="char2/lh2.html">
+		<img src="hmlhpg/kaloff.png" class="second" onmouseover="this.src='hmlhpg/kalsel.png';" onmouseout="this.src='hmlhpg/kaloff.png';"/></a> 
+		<a href="javascript:void(0);" class="iframe-lightbox-link" data-src="char2/lh1.html">
+		<img src="hmlhpg/pyaoff.png" class="first"  onmouseover="this.src='hmlhpg/pyasel.png';" onmouseout="this.src='hmlhpg/pyaoff.png';"/></a> 
+		<a href="javascript:void(0);" class="iframe-lightbox-link" data-src="char2/lh5.html">
+		<img src="hmlhpg/claoff.png" class="third" onmouseover="this.src='hmlhpg/clasel.png';" onmouseout="this.src='hmlhpg/claoff.png';"/></a>
+		<a href="javascript:void(0);" class="iframe-lightbox-link" data-src="char2/asl.html">
+		<img src="hmlhpg/ddoff.png"  class="right"  onmouseover="this.src='hmlhpg/ddsel.png';"  onmouseout="this.src='hmlhpg/ddoff.png';"/></a>		
+	</div>
+	<div class="center">
+		<a href="javascript:void(0);" class="iframe-lightbox-link" data-src="char2/lh6.html">
+		<img src="hmlhpg/amioff.png" class="last"   onmouseover="this.src='hmlhpg/amisel.png';" onmouseout="this.src='hmlhpg/amioff.png';"/></a> 
+		<a href="javascript:void(0);" class="iframe-lightbox-link" data-src="char2/lh3.html">
+		<img src="hmlhpg/aisoff.png" class="third"  onmouseover="this.src='hmlhpg/aissel.png';" onmouseout="this.src='hmlhpg/aisoff.png';"/></a> 
+		<a href="javascript:void(0);" class="iframe-lightbox-link" data-src="char2/lh7.html">
+		<img src="hmlhpg/mahoff.png" class="first"  onmouseover="this.src='hmlhpg/mahsel.png';" onmouseout="this.src='hmlhpg/mahoff.png';"/></a> 
+		<a href="javascript:void(0);" class="iframe-lightbox-link" data-src="char2/lh4.html">
+		<img src="hmlhpg/rayoff.png" class="second"   onmouseover="this.src='hmlhpg/raysel.png';" onmouseout="this.src='hmlhpg/rayoff.png';"/></a> 
+	</div>
+	</div>
+	<a href="index.html" style="float:left; text-decoration: none">
+	  <h1>&#60; To Title Screen</h1>
+    </a> 
+ </body>
+ <script src="js/iframe-lightbox.js"></script>
+        <script>
+[].forEach.call(document.getElementsByClassName("iframe-lightbox-link"), function(el) {
+  el.lightbox = new IframeLightbox(el);
+});
+        </script>
+<script>
+    (function() {
+        var $gallery = new SimpleLightbox('.gallery a', {});
+    })();
+</script>
+<script> 
+var colors = new Array(
+  [255,192,203],
+  [255,105,180],
+  [255,20,147],
+  [255,0,255],
+  [238,130,238],
+  [255,128,128]);
+
+var step = 0;
+//color table indices for: 
+// current color left
+// next color left
+// current color right
+// next color right
+var colorIndices = [0,1,2,3];
+
+//transition speed
+var gradientSpeed = 0.002;
+
+function updateGradient()
+{
+  
+  if ( $===undefined ) return;
+  
+var c0_0 = colors[colorIndices[0]];
+var c0_1 = colors[colorIndices[1]];
+var c1_0 = colors[colorIndices[2]];
+var c1_1 = colors[colorIndices[3]];
+
+var istep = 1 - step;
+var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
+var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
+var color1 = "rgb("+r1+","+g1+","+b1+",0.5)";
+
+var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
+var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
+var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
+var color2 = "rgb("+r2+","+g2+","+b2+",0.5)";
+
+ $('#gradient').css({
+   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+  
+  step += gradientSpeed;
+  if ( step >= 1 )
+  {
+    step %= 1;
+    colorIndices[0] = colorIndices[1];
+    colorIndices[2] = colorIndices[3];
+    
+    //pick two new target color indices
+    //do not pick the same as the current one
+    colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+    colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+    
+  }
+}
+
+setInterval(updateGradient,10);
+</script>
+ </html>

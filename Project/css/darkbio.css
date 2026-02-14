@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+html {
+	width:100%;
+	height:100%;
+}
+body {
+	background: url(../img/bio_dark.png);
+	background-color: #160024;
+	background-size: 100%;
+	max-width: 104%;
+    max-height: 100%;
+    height: auto;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+}
+
+#bio{
+	
+}
+img {
+	border: 0;
+	padding: 1%;
+}
+h1 {
+  font-family: 'Audiowide', cursive;
+  font-weight: 800;
+  /* Warning: no fallback */
+  background: -webkit-linear-gradient(-90deg, #00ffff 5%, #ff00dc 91%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  color: #232d2d; 
+  margin: auto;
+  /* padding-bottom: 50%; */
+  width: 100%;
+  font-size: 6vh;
+}
+
+h1 span {
+  -webkit-text-stroke: 2px transparent;
+}
+
+h3 {
+  font-family: 'Lobster Two', cursive;
+  background: linear-gradient(-60deg, #00ffff 0%, #ff00dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  color: #232d2d;
+  bottom: 1vh;
+  right: 26vh;
+  position: absolute;
+  margin: auto;
+  font-size: 4vh;
+}
+
+p {
+  top: 5vh;
+  font-family: 'Bellota Text', sans-serif;
+  color: white;
+  width: 24%;
+  position: absolute;
+  padding-left: 6%;
+  font-size: 2vh;
+}
