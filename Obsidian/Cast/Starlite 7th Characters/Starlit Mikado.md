@@ -1,0 +1,18 @@
+![[Starlit Mikado.png|200]]
+Starlit Mikado employs an aggressive dual-wield combat style defined by relentless aerial mobility, rapid multi-angle offense, and synchronized blade chaining. Her methodology emphasizes overwhelming opponents through speed, pressure, and fluid combination attacks that allow little opportunity for retaliation or escape.
+
+Her primary weapons, **Lotus Dominion**, consist of a pair of interlocking hook blades designed for both independent dual-wield combat and combined extended configurations. Each blade features curved cutting edges and reinforced hooking prongs that allow Mikado to trap, redirect, or disarm enemy weapons mid-engagement. When interlocked, Lotus Dominion forms a double-ended weapon capable of wide-area sweeping strikes and rotational offensive techniques.
+
+Mikado’s fighting rhythm prioritizes constant motion and vertical engagement. She frequently launches into aerial assaults, using momentum-driven spins, flips, and directional dash strikes to attack from unpredictable vectors. Her attacks often chain together seamlessly, with each strike serving as both damage output and repositioning tool. This makes her combat style extremely difficult to read or counter, as she rarely remains in a static stance long enough to be targeted effectively.
+
+The hook design of Lotus Dominion plays a critical role in Mikado’s tactical execution. She uses the hooks to seize enemy limbs, weapons, or environmental structures, allowing her to pivot around opponents or redirect their balance. This capability allows her to transition between offense and evasion without interrupting her combat flow. She frequently pulls herself toward targets or launches opponents into vulnerable aerial positions before following with high-speed finishing sequences.
+
+When Lotus Dominion is combined into its interlocked configuration, Mikado shifts into a more momentum-driven rotational style. She uses continuous spinning assaults, extended reach sweeps, and circular zone denial techniques to control large engagement spaces. This form sacrifices some precision for area dominance, allowing her to pressure multiple opponents simultaneously or prevent enemies from approaching allied formations.
+
+Mikado demonstrates exceptional coordination between her two blades, often executing mirrored or alternating strike patterns that create layered attack timing. Opponents attempting to block one blade frequently find themselves exposed to the second blade arriving from a different trajectory or delay interval. Her attack sequences often escalate in tempo, accelerating as engagements continue and placing increasing strain on defensive reactions.
+
+Defensively, Mikado relies on speed, aerial repositioning, and weapon entanglement rather than direct blocking. She frequently uses Lotus Dominion to catch incoming attacks, twist enemy weapons off trajectory, or leverage opponent force into launching counterattacks. Her evasive maneuvers often blend seamlessly into offensive re-entry, maintaining uninterrupted combat pressure.
+
+Psychologically, Starlit Mikado projects disciplined intensity and unwavering battlefield focus. Her movements carry a ceremonial elegance that reflects her imperial title, but beneath that refinement lies an uncompromising commitment to decisive victory. She engages opponents with controlled ferocity, seeking to dominate tempo and control the rhythm of combat from initiation to conclusion.
+
+Starlit Mikado’s combat philosophy centers on **imperial inevitability**. She believes battle should be conducted with precision, speed, and unbreakable forward momentum, overwhelming opposition through superior coordination, discipline, and sustained offensive mastery.

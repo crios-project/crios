@@ -1,0 +1,2 @@
+Also know as the Realm of Antiquity. 
+A realm that has no magic. [[Tiala Corsolis]] was able to call its lodesoul into Nexsicon and subsequently cause the subsumption of the unnamed realm into Nexsicon. This also caused the first mythical land to emerge: the lost continent of Mu.  

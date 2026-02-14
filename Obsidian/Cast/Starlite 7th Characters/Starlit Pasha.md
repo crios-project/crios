@@ -1,0 +1,18 @@
+![[Starlit Pasha.png|175]]
+Starlit Pasha employs a hyper-mobile, aerial-focused combat style centered around speed, spatial dominance, and relentless ranged harassment. Her methodology emphasizes constant motion, multi-angle pressure, and battlefield disorientation, allowing her to overwhelm opponents through velocity and unpredictable attack vectors.
+
+Her primary weapons, **Diadem Refrains**, are a pair of enchanted chakrams engineered for both precision throwing and close-range rotational combat. The twin configuration allows Pasha to maintain continuous offensive pressure by alternating throws, ricochet strikes, and synchronized dual-weapon patterns. The chakrams are designed to return reliably to her grip mid-movement, enabling uninterrupted attack chains and rapid re-engagement cycles.
+
+Pasha’s greatest tactical advantage lies in her ability to fly. She uses aerial mobility not simply as transportation but as the core of her combat doctrine. She frequently engages opponents from shifting altitudes, forcing adversaries to divide attention between horizontal and vertical threat zones. This three-dimensional battlefield control allows her to dictate engagement distance and pace with near-total freedom.
+
+In ranged combat, Pasha launches Diadem Refrains in rapid succession, often creating overlapping projectile paths that rebound off terrain, opponents, or each other. She excels at establishing looping projectile patterns that corral enemies into restricted movement corridors before striking vulnerable openings. Many of her attacks appear chaotic, but they are carefully calibrated to herd opponents into predetermined strike zones.
+
+At close range, Pasha transitions seamlessly into spinning melee techniques. She utilizes acrobatic rotations, aerial corkscrews, and inverted midair pivots to transform her chakrams into whirling defensive and offensive rings. These spinning techniques allow her to deflect incoming projectiles, slice through guarded stances, or create temporary zones of rotational blade coverage that discourage pursuit.
+
+Pasha frequently combines flight bursts with sudden dive attacks. She accelerates from high altitude into high-speed descent strikes, releasing chakrams during downward momentum to multiply attack velocity and impact force. These dive sequences often chain directly into rebound aerial maneuvers that reposition her before opponents can counterattack.
+
+Defensively, Pasha relies almost entirely on evasion and aerial repositioning. She avoids sustained ground engagement, instead using rapid ascent, lateral air dashes, and midair directional pivots to remain difficult to track or target. When pressured, she frequently creates visual confusion by launching chakrams from multiple angles while repositioning behind or above her opponent.
+
+Psychologically, Pasha presents herself as playful, energetic, and occasionally teasing during battle. She thrives on maintaining high-tempo engagements and often escalates attack speed when challenged. This buoyant combat presence masks a razor-sharp tactical instinct and highly disciplined spatial awareness, allowing her to balance showmanship with lethal efficiency.
+
+Starlit Pasha’s combat philosophy centers on **aerial sovereignty through momentum**. She believes victory belongs to the combatant who controls space, tempo, and perception, overwhelming opponents by ensuring they are never fighting where they expect — nor where they feel safe.

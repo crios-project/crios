@@ -1,0 +1,16 @@
+![[Heart Sonata.png|250]]
+Heart Sonata employs a deception-centric combat doctrine that merges stealth tactics, misdirection, and opportunistic aggression with the fluid brutality of curved-blade warfare. Her battlefield philosophy revolves around controlling perception — ensuring her opponents never fully understand where the next strike will originate until it is already too late.
+
+Her primary weapon, Cantabile Cleaver, is a khopesh that emphasizes hooking, trapping, and tearing techniques rather than straightforward slashing exchanges. The forward-curved blade allows Heart Sonata to bypass conventional guards, seize shields or weapons, and drag opponents off balance before delivering precise follow-up strikes. She frequently uses the weapon’s inner curve to control enemy limbs or equipment, turning defensive maneuvers into openings for lethal counters.
+
+Heart Sonata integrates her metal magic as both an offensive amplifier and a stealth utility. She can manipulate nearby metallic surfaces, reshape fragments into silent projectiles, or subtly alter her weapon’s structure to change its reach, weight distribution, or cutting profile mid-combat. This dynamic adaptation allows her to remain unpredictable and difficult to read. She is also known to use ambient metal to create distractions, false attack vectors, or environmental hazards that disorient adversaries before she closes in for decisive blows.
+
+Mobility and concealment define her movement strategy. Heart Sonata favors shadowed terrain, obstructed sightlines, and vertical maneuvering opportunities. She often initiates engagements from blind angles, using rapid entry-and-withdrawal patterns to weaken opponents incrementally. Rather than sustaining prolonged frontal combat, she systematically dismantles enemy defenses through harassment strikes, equipment sabotage, and targeted injuries that degrade combat effectiveness over time.
+
+Her footwork prioritizes silence and irregular rhythm. She deliberately breaks predictable pacing, alternating between stillness and sudden bursts of motion to disrupt enemy timing. She is particularly adept at repositioning mid-engagement, frequently vanishing into cover or visual clutter before reappearing from a new vector of attack.
+
+Psychologically, Heart Sonata weaponizes uncertainty. She cultivates an atmosphere of tension and paranoia, forcing opponents to divide their attention between visible threats and unseen dangers. This mental strain often causes enemies to overcommit to defensive actions, creating the precise openings she exploits. Her combat presence is less about overwhelming force and more about gradual, inevitable domination through cunning and control.
+
+While highly effective in controlled or complex environments, her style is less optimized for open-field confrontations where concealment and terrain manipulation are limited. In such scenarios, she compensates by using her metal magic to artificially create cover, deploy airborne metallic shrapnel screens, or manipulate battlefield structures to restore her tactical advantage.
+
+Heart Sonata’s combat doctrine reflects calculated elegance — a performance of hidden blades, shifting steel, and carefully orchestrated misdirection, where victory is secured long before the opponent realizes they are losing.

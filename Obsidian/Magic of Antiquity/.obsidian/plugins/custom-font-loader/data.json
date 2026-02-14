@@ -1,0 +1,7 @@
+{
+  "font_folder": ".obsidian/fonts/",
+  "font": "all",
+  "force_mode": false,
+  "custom_css_mode": true,
+  "custom_css": ".quote {\nfont-family: LobsterTwo-Italic !important;\nbackground: -webkit-linear-gradient(-90deg, #008080 0%, #ff00dc 100%);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\nline-height: -40px;\nmargin: 0;\n}\n\n.KaushanScript-Regular * {\n\t\tfont-family: KaushanScript-Regular !important;\n\t\t}\n.LobsterTwo-Bold * {\n\t\tfont-family: LobsterTwo-Bold !important;\n\t\t}\n.LobsterTwo-BoldItalic * {\n\t\tfont-family: LobsterTwo-BoldItalic !important;\n\t\t}\n.LobsterTwo-Italic * {\n\t\tfont-family: LobsterTwo-Italic !important;\n\t\t}\n.LobsterTwo-Regular * {\n\t\tfont-family: LobsterTwo-Regular !important;\n\t\t}"
+}

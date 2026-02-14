@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "ee443c71e5c13f7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fd063fcf2f26b7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a95635a267b53c8e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d3ec9da7a2aaef9",
+    "type": "split",
+    "children": [
+      {
+        "id": "82ce6306a8d04daa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f11156c4b707da4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3203c9c1718118c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7c88ca1c31f9fb70",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e96a394cdc4e71bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "1097236db2d02160",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bffe7e5dad07f3b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Magic - Ultimate/Aether.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Aether"
+            }
+          },
+          {
+            "id": "6bc0271a8b64d1d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Magic - Ultimate/Aether.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Aether"
+            }
+          },
+          {
+            "id": "caa475f5d5839649",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "10cbe8e6d9d06569",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Magic - Ultimate/Aether.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Aether"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "a95635a267b53c8e",
+  "lastOpenFiles": [
+    "Lists/Arsenal List.md",
+    "Magic - Base/Water (defunct).md",
+    "Magic - Base/Fire (defunct).md",
+    "Magic - Base/Fourth World - Fire (defunct).md",
+    "Untitled 1.base",
+    "Amare.md",
+    "Heart Aria.md",
+    "Lists/Character List.md",
+    "2026-02-02.md",
+    "Untitled.base",
+    "Crios Archive.md",
+    "Music Test.md",
+    "Mahana Sahi.md",
+    "Notes.md",
+    "Files/Hearts/Ami.png",
+    "Files/Icons/Starlite 7th Logo.png",
+    "Files/Icons/Reason Theory Logo.png",
+    "Files/Icons/Praxis Verax Affinis Logo.png",
+    "Files/Icons/Lovely Hearts Logo.png",
+    "Files/Icons/Starlite 7th 2025 v2.png",
+    "Files/Icons/Reason Theory 2026.png",
+    "Files/Icons/Praxis Verax Affinis 2025.png",
+    "Files/Icons/Lovely Hearts Logo V2.png",
+    "Files/Hearts/Kali heart.png",
+    "Files/Characters/Zhou-Chun w6.png.crswap",
+    "Files/Characters/Zhou-Chun w4.png.crswap",
+    "Files/Characters/Zhou-Chun w3.png.crswap",
+    "Files/Characters/Zhou-Chun w2.png.crswap",
+    "Files/Characters/Novus Solamor.png.crswap",
+    "Files/Characters/Novus Pluere.png.crswap",
+    "Files/Characters/Novus Corstilla.png.crswap",
+    "Files/Characters/Mahana Sahi.png.crswap",
+    "Faction - Starlite 7th/The Gold Imperator.md",
+    "Faction - Starlite 7th/BLADE GUILLOTINE.md",
+    "Faction - Reason Theory/Zhòu-chún Shìfàng.md",
+    "Faction - Reason Theory/Amaranthine Hartfall.md",
+    "Faction - Praxis Verax Affinas/Alulu Ostera.md",
+    "Faction - Lovely Hearts/Heart Symphony.md",
+    "Faction - Lovely Hearts/Heart Verismo.md",
+    "Faction - Lovely Hearts/Lovely Hearts.md",
+    "Faction - Lovely Hearts/Philharmonious.md",
+    "Faction - Lovely Hearts/Symphony Ultimate.md",
+    "Faction - Lovely Hearts/Heart Sonata.md",
+    "Faction - Lovely Hearts/Heart Seria.md",
+    "Faction - Lovely Hearts/Heart Rhythm.md",
+    "Faction - Lovely Hearts/Heart Crescendo - Symphony Awakened.md",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "eaf87e713d607d51",
+    "type": "split",
+    "children": [
+      {
+        "id": "b210c87c61c54a02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72c1712d93fa6da1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cast/Heart Melody Characters/dissonant discord.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "dissonant discord"
+            }
+          },
+          {
+            "id": "8f1f60809f9f81fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cast/Nexsicon Characters/Alulu Caelum.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Alulu Caelum"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "beec1b996a75c1cd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d27706b68df2cacd",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "f21e0c967ff272e3",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:#nexsicon-theory",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "0c3e9b875e95bb58",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "a400d1f2a662af9a",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "1691036b3c8e4312",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5e42cc62fe5ca245",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Cast/Beeston Characters/Pyara Dana.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "6e598335dd02f8fe",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "bd3035ed78a014a5",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8f1f60809f9f81fd",
+  "lastOpenFiles": [
+    "Cast/Antiquity Characters/Princess Clarisieandra.md",
+    "Cast/Antiquity Characters/Caie Ascala.md",
+    "Magic/Elements/Neutral - Unaspected.md",
+    "Lists/Magic List.md",
+    "Lists/Faction List.md",
+    "Lists/Cast List.md",
+    "Lists/Arsenal List.md",
+    "Cast/Starlite 7th Characters/The Gold Imperator.md",
+    "Cast/Starlite 7th Characters/Starlit Alpha.md",
+    "Golden Imperator.md",
+    "Factions/Starlite 7th.md",
+    "Factions/Reason Theory.md",
+    "Factions/Heart Melody.md",
+    "Factions/Destiny's Penance.md",
+    "Cast/Ultimatera Characters/Zhòu-chún Tǎoyàn.md",
+    "Cast/Ultimatera Characters/Kesshō³ Zhàn.md",
+    "Cast/Ultimatera Characters/Kesshō² Tǐ.md",
+    "Cast/Ultimatera Characters/Kesshō Yīng.md",
+    "Cast/Ultimatera Characters/Alulu³ Ọnwụ.md",
+    "Cast/Ultimatera Characters/Alulu² Akụkụ.md",
+    "Cast/Nexsicon Characters/Zhòu-chún Shìfàng.md",
+    "Cast/Nexsicon Characters/Kesshō Kawa.md",
+    "Cast/Nexsicon Characters/Fú cì Ánguāng.md",
+    "Cast/Beeston Characters/Pyara Dana.md",
+    "Cast/Beeston Characters/Oktusha Miko.md",
+    "Cast/Beeston Characters/Omba Miko.md",
+    "Files/Characters/Pyara Dana 2.png",
+    "Crios Archive",
+    "Files/Weapons/Fallire Finale envious.png",
+    "Cast/Heart Melody Characters",
+    "Cast/Starlite 7th Characters",
+    "Files/Characters/Alulu Dayk.png",
+    "Files/Crowns/itacrown.png",
+    "Files/Hearts/Pyara heart.png",
+    "Files/Icons/Praxis Verax Affinis Logo.png",
+    "Files/Icons/Reason Theory Logo.png",
+    "Files/Icons/Lovely Hearts Logo.png",
+    "Files/Icons/Lovely Hearts Icon.png",
+    "Files/Icons/Destiny's Penance Logo.png",
+    "Factions",
+    "Crios Archive/Untitled.base",
+    "Files/Outfits",
+    "Nexsicon Characters",
+    "Royastella Characters",
+    "Short Stories",
+    "Magic/Elements",
+    "Crios Archive/Untitled.canvas"
+  ]
+}

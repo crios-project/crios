@@ -1,0 +1,12 @@
+![[TesseraRatio.png|225]]
+Tessera Ratio retains the lethal adaptability and improvisational brilliance that define [[Tessera Vis]], but her combat expression becomes far less predictable and dramatically more destabilizing to opponents. Her movements reject conventional structure, replacing recognizable patterns with erratic timing shifts, misleading rhythm breaks, and intentionally fragmented attack sequences that make defensive planning nearly impossible.
+
+Her fighting style revolves around weaponizing uncertainty. Ratio frequently initiates engagements with feints layered inside other feints, creating cascading misreads that cause enemies to commit to counters against attacks that never arrive. She seamlessly alternates between precision swordplay and environmental exploitation, treating terrain, debris, enemy weapons, and even allied movement as extensions of her arsenal.
+
+Fallire Fanale becomes an instrument of disorientation under her control. Ratio summons and dismisses the blade in rapid succession, striking from unexpected angles or allowing opponents to commit to defenses against a weapon that vanishes mid-clash. She often combines partial manifestations of the blade with empty-hand techniques, creating situations where enemies cannot reliably predict her reach or striking vectors.
+
+Her mobility is defined by sudden directional reversals and asymmetrical footwork. Ratio intentionally disrupts her own tempo to bait opponents into attacking empty space, only to reappear within their guard using sliding pivots, off-axis lunges, or acrobatic redirections. She frequently converts defensive maneuvers into multi-step offensive chains that escalate unpredictably in intensity.
+
+Ratio thrives when engagements become crowded or structurally unstable. She instinctively manipulates battlefield disorder, turning collapsing terrain, scattered weapons, or multiple combatants into layered hazards that restrict enemy coordination. Opponents attempting to impose order on the fight often find themselves trapped within sequences of overlapping threats triggered by their own movements.
+
+At peak performance, Ratio becomes nearly impossible to anticipate. Engagement against her evolves into a psychological battle where certainty deteriorates with each exchange. Opponents are forced into hesitation, overcorrection, or reckless escalation, all of which Ratio exploits with devastating precision while maintaining her signature improvisational dominance.

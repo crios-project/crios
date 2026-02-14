@@ -1,0 +1,16 @@
+[[Neutral - Unaspected]]
+[[Fire]]
+[[Water]]
+[[Earth]]
+[[Wind]]
+
+[[Poison]]
+[[Metal]]
+[[Ice]]
+[[Plant]]
+[[Lightning]]
+[[Martial Arts]]
+
+[[Light]]
+[[Darkness]]
+[[Neon Ultra - Aether]]
